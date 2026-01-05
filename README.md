@@ -123,7 +123,7 @@ uv run server.py --transport sse --port 8000
 
 ## 🏗️ Development
 
-1. **Clone**: `git clone https://github.com/yourusername/docx-mcp-server.git`
+1. **Clone**: `git clone https://github.com/OkamiFeng/docx-mcp-server.git`
 2. **Install**: `uv sync` or `pip install -r requirements.txt`
 3. **Build Exe**:
    ```bash
