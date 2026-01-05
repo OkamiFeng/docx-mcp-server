@@ -1,0 +1,24 @@
+[project]
+name = "docx-mcp-server"
+version = "0.1.0"
+description = "A MCP server for editing and creating Docx files"
+authors = [
+    {name = "OkamiFeng", email = "your.email@example.com"},
+]
+urls = {Repository = "https://github.com/OkamiFeng/docx-mcp-server"}
+dependencies = [
+    "mcp[cli]",
+    "python-docx",
+    "uvicorn",
+    "starlette",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+docx-mcp-server = "docx_mcp_server.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
